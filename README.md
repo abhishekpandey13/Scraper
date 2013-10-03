@@ -22,6 +22,7 @@ There are hardcoded latencies to allow a  webpage to load fully. Owing to this, 
 
 <strong> Please be patient and give it a minute or two to finish at max!   The program replays itself in case of exception, causing some minor latency.
 </strong>
+
 There are 2 use cases:
 
 a. java -jar Scraper.jar <keyword> (e.g. java -jar Scraper.jar "digital camera")
