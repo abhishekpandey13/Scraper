@@ -7,7 +7,7 @@ A Selenium based WebPage Scraper written in Java.
 Requirements:
 ---------------
 Firefox . If you want to change source code, then you will have to download the latest Selenium JAVA API. 
-If you just want to test, provided is a stand-alone jar executable file. Execution method is described in Description section.
+If you just want to test, provided is a stand-alone jar executable file  (**Scraper.jar**). Execution method is described in Description section.
 
 ---------------
 Tested on: 
@@ -20,7 +20,7 @@ Description:
 This project uses the Selenium API to fetch webpage and carries out required search and list operations. It addresses all the corner cases like invalid page number, out of bound page number. It handles some of the frequent Selenium Webdriver exceptions like NoSuchElementException and replays. 
 There are hardcoded latencies to allow a  webpage to load fully. Owing to this, the program loads slow. 
 
-****** Please be patient and give it a minute or two to finish at max!  ***** The program replays itself in case of exception, causing some minor latency.
+** Please be patient and give it a minute or two to finish at max!  ** The program replays itself in case of exception, causing some minor latency.
 
 There are 2 use cases:
 
