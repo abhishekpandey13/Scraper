@@ -20,8 +20,8 @@ Description:
 This project uses the Selenium API to fetch webpage and carries out required search and list operations. It addresses all the corner cases like invalid page number, out of bound page number. It handles some of the frequent Selenium Webdriver exceptions like NoSuchElementException and replays. 
 There are hardcoded latencies to allow a  webpage to load fully. Owing to this, the program loads slow. 
 
-** Please be patient and give it a minute or two to finish at max!  ** The program replays itself in case of exception, causing some minor latency.
-
+<strong> Please be patient and give it a minute or two to finish at max!   The program replays itself in case of exception, causing some minor latency.
+</strong>
 There are 2 use cases:
 
 a. java -jar Scraper.jar <keyword> (e.g. java -jar Scraper.jar "digital camera")
