@@ -7,7 +7,7 @@ A Selenium based WebPage Scraper written in Java.
 Requirements:
 ---------------
 Firefox . If you want to change source code, then you will have to download the latest Selenium JAVA API. 
-If you just want to test, provided is a stand-alone jar executable file  (__Scraper.jar__). Execution method is described in Description section.
+If you just want to test, provided is a stand-alone jar executable file  (_Scraper.jar_). Execution method is described in Description section.
 
 ---------------
 Tested on: 
