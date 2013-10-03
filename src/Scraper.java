@@ -1,4 +1,3 @@
-
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -99,18 +98,18 @@ public class Scraper {
 	}
 	public static void main(String[] args) throws InterruptedException {		
 		if(args.length == 0 || args.length >2){
-			System.out.println("Usage: java -jar Assignment.jar <keyword>  OR java -jar Assignment.jar <keyword> <page number> ");
+			System.out.println("Usage: java -jar Scraper.jar <keyword>  OR java -jar Scraper.jar <keyword> <page number> ");
 			return;
 		}
 		String searchString;
 		int pageNumber; 
 		Scraper scraper = new Scraper();
-		// Case 1: java -jar Assignment.jar <keyword>
+		// Case 1: java -jar Scraper.jar <keyword>
 		if(args.length == 1){
 			searchString = args[0];
 			scraper.findNumberOfResults(searchString);			
 		}
-		// Case 2: java -jar Assignment.jar <keyword> <page number>
+		// Case 2: java -jar Scraper.jar <keyword> <page number>
 		if(args.length == 2){
 			searchString = args[0];
 			pageNumber = Integer.parseInt(args[1]);
